@@ -19,6 +19,8 @@ body {
   margin: 8px;
   background-color: #999;
   position: relative;
+  height: 250px;
+  overflow-x: auto;
 }
 
 .text {
