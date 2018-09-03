@@ -48,6 +48,10 @@ body {
       margin-bottom: 0;
   }
 
+  #nav-list a {
+      font-weight: bold;
+  }
+
   #nav-list hr {
       margin: 1px 10px;
   }
