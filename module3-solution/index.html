@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <title>Boostrap Starter Page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+<body>
+
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <div class="navbar-brand">
+                        <a href="index.html"><h1>Aircrafts, LTD</h1></a>
+                    </div>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+            </div>
+            <div id="collapsable-nav" class="collapse navbar-collapse">
+                <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs text-center">
+                    <li>
+                        <a href="#su-27">Su-27</a>
+                        <hr>
+                    </li>
+                    <li>
+                        <a href="#f-15">F-15</a>
+                        <hr>
+                    </li>
+                    <li>
+                        <a href="#typhoon">Typhoon</a>
+                    </li>
+                </ul><!-- #nav-list -->
+            </div><!-- .collapse .navbar-collapse -->
+        </nav>
+    </header>
+
+    <div id="main-content" class="container">
+        <h2 id="menu-categories-title" class="text-center">Aircrafts</h2>
+        <section class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12" id="su-27">
+                <div class="category-tile category-fixed">
+                    <span>Su-27</span>
+                    <div class="image">
+                        <img src="img-su-27.jpg" alt="Su-27">
+                    </div>
+                    <div class="text">
+                        The Sukhoi Su-27 (Russian: Сухой Су-27; NATO reporting name: Flanker) is a twin-engine supermaneuverable fighter aircraft designed by Sukhoi. It was intended as a direct competitor for the large United States fourth-generation fighters such as the Grumman F-14 Tomcat and F-15 Eagle, with 3,530-kilometre (1,910 nmi) range, heavy aircraft ordnance, sophisticated avionics and high maneuverability. The Su-27 was designed for air superiority missions, and subsequent variants are able to perform almost all aerial warfare operations. It was designed with the Mikoyan MiG-29 as its complement.
+                    </div>
+                    <div class="category-eos visible-xs">
+                        (End of Su-27 section) <a href="#">Back to top</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12" id="f-15">
+                <div class="category-tile category-fixed">
+                    <span>F-15</span>
+                    <div class="image">
+                        <img src="img-f-15.jpg" alt="F-15">
+                    </div>
+                    <div class="text">
+                            The McDonnell Douglas F-15 Eagle is an American twin-engined, all-weather tactical fighter aircraft designed by McDonnell Douglas (now Boeing) to gain and maintain air supremacy in all aspects of aerial combat. Following reviews of proposals, the United States Air Force selected McDonnell Douglas' design in 1967 to meet the service's need for a dedicated air-superiority fighter. The Eagle first flew in July 1972, and entered service in 1976. It is among the most successful modern fighters, with over 100 victories and no losses in aerial combat, with the majority of the kills by the Israeli Air Force.
+                    </div>
+                    <div class="category-eos visible-xs">
+                        (End of F-15 section) <a href="#">Back to top</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12" id="typhoon">
+                <div class="category-tile category-md-fixed">
+                    <span>Typhoon</span>
+                    <div class="image">
+                        <img src="img-typhoon.jpg" alt="Typhoon">
+                    </div>
+                    <div class="text">
+                        The Eurofighter Typhoon is a twin-engine, canard-delta wing, multirole fighter. The Typhoon was designed originally as an air superiority fighter and is manufactured by a consortium of Airbus, BAE Systems and Leonardo that conducts the majority of the project through a joint holding company, Eurofighter Jagdflugzeug GmbH formed in 1986. NATO Eurofighter and Tornado Management Agency manages the project and is the prime customer.
+                    </div>
+                    <div class="category-eos visible-xs">
+                        (End of Typhoon section) <a href="#">Back to top</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
